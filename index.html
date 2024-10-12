@@ -6,6 +6,97 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h1>Avaiable Material</h1>
+    </div>
+    <div class="body">
+        <div class="subject">
+            <div class="img">
+                <img src="/img/book-svgrepo-com.svg" alt="">
+            </div>
+            <div class="name-sbj">
+                <p>Toán rời rạc</p>
+            </div>
+            <button>View</button>
+        </div>
+            <div class="subject">
+                <div class="img">
+                    <img src="/img/book-svgrepo-com.svg" alt="">
+                </div>
+                <div class="name-sbj">
+                    <p>Java</p>
+                </div>
+                <button>View</button>
+            </div>
+            <div class="subject">
+                <div class="img">
+                    <img src="/img/book-svgrepo-com.svg" alt="">
+                 </div>
+                 <div class="name-sbj">
+                     <p>Xác xuất thống kê</p>
+                 </div>
+                 <button>View</button>
+             </div>
+             <div class="subject">
+                <div class="img">
+                    <img src="/img/book-svgrepo-com.svg" alt="">
+                </div>
+                <div class="name-sbj">
+                    <p>Tin học đại cương</p>
+                </div>
+                <button>View</button>
+            </div>
+                <div class="subject">
+                    <div class="img">
+                        <img src="/img/book-svgrepo-com.svg" alt="">
+                    </div>
+                    <div class="name-sbj">
+                        <p>Cấu trúc dữ liệu</p>
+                    </div>
+                    <button>View</button>
+                </div>
+                <div class="subject">
+                    <div class="img">
+                        <img src="/img/book-svgrepo-com.svg" alt="">
+                     </div>
+                     <div class="name-sbj">
+                         <p>Lập trình nâng cao</p>
+                     </div>
+                     <button>View</button>
+                 </div>
+            
+    </div>
 </body>
 </html>
+<style>
+    .header {
+    text-align: center;
+    font-family: math;
+    letter-spacing: 6px;
+    font-size: 30px;
+    background: #d7d6d6;
+    box-shadow: 0 0 2px;
+    border-radius: 10px;
+    }
+    .subject {
+        width: calc(100% / 3 - 76px);
+        background: #d7d6d6;
+        box-shadow: 0 0 3px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+    }
+    .img img {
+        width: 60px  
+    }
+    .name-sbj {
+        font-size: 30px;
+    }
+    .body {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+</style>
