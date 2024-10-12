@@ -9,60 +9,60 @@
     <div class="header">
         <h1>Avaiable Material</h1>
     </div>
-    <div class="body">
+    <div class="body-sbj">
         <div class="subject">
             <div class="img">
-                <img src="/img/book-svgrepo-com.svg" alt="">
+                <img src="/img/logo-javascript-2.png" alt="">
             </div>
             <div class="name-sbj">
-                <p>Toán rời rạc</p>
+                <p>JavaScript</p>
             </div>
-            <button>View</button>
+            <button><a href="./subject/js.html">View</a></button>
         </div>
             <div class="subject">
                 <div class="img">
-                    <img src="/img/book-svgrepo-com.svg" alt="">
+                    <img src="/img/java-svgrepo-com.svg" alt="">
                 </div>
                 <div class="name-sbj">
                     <p>Java</p>
                 </div>
-                <button>View</button>
+                <button><a href="./subject/java.html">View</a></button>
             </div>
             <div class="subject">
                 <div class="img">
-                    <img src="/img/book-svgrepo-com.svg" alt="">
+                    <img src="/img/09f5d225-fe09-47d0-beba-1e03e8d57241.avif" alt="">
                  </div>
                  <div class="name-sbj">
-                     <p>Xác xuất thống kê</p>
+                     <p>c++</p>
                  </div>
-                 <button>View</button>
+                  <button><a href="./subject/c++.html">View</a></button>
              </div>
              <div class="subject">
                 <div class="img">
-                    <img src="/img/book-svgrepo-com.svg" alt="">
+                    <img src="/img/python-svgrepo-com.svg" alt="">
                 </div>
                 <div class="name-sbj">
-                    <p>Tin học đại cương</p>
+                    <p>Python</p>
                 </div>
-                <button>View</button>
+                 <button><a href="./subject/python.html">View</a></button>
             </div>
                 <div class="subject">
                     <div class="img">
-                        <img src="/img/book-svgrepo-com.svg" alt="">
+                        <img src="/img/html-5-logo-svgrepo-com.svg" alt="">
                     </div>
                     <div class="name-sbj">
-                        <p>Cấu trúc dữ liệu</p>
+                        <p>HTML</p>
                     </div>
-                    <button>View</button>
+                     <button><a href="./subject/html.html">View</a></button>
                 </div>
                 <div class="subject">
                     <div class="img">
-                        <img src="/img/book-svgrepo-com.svg" alt="">
+                        <img src="/img/R.png" alt="">
                      </div>
                      <div class="name-sbj">
-                         <p>Lập trình nâng cao</p>
+                         <p>Ruby</p>
                      </div>
-                     <button>View</button>
+                      <button><a href="./subject/ruby.html">View</a></button>
                  </div>
             
     </div>
@@ -74,29 +74,46 @@
     font-family: math;
     letter-spacing: 6px;
     font-size: 30px;
-    background: #d7d6d6;
+    background: #ffffff;
     box-shadow: 0 0 2px;
     border-radius: 10px;
     }
     .subject {
         width: calc(100% / 3 - 76px);
-        background: #d7d6d6;
+        background: #ffffff;
         box-shadow: 0 0 3px;
         padding: 30px;
         border-radius: 10px;
         border: 1px solid #ccc;
         margin-bottom: 20px;
+        text-align: center;
     }
     .img img {
-        width: 60px  
+        width: 80px  
     }
     .name-sbj {
         font-size: 30px;
     }
-    .body {
+    .body-sbj {
         display: flex;
         width: 100%;
         gap: 20px;
         flex-wrap: wrap;
+
     }
+    body {
+        background: #d7d6d6;
+    }
+    .subject button {
+    font-size: 15px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid;
+    }
+    .subject button a {
+        text-decoration: none;
+        color: #333;
+    }
+     
 </style>
